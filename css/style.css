@@ -1,0 +1,124 @@
+.container {
+  height: 50vh;
+  width: 100vw;
+  background-color: blanchedalmond;
+  border: 1px solid blue;
+}
+
+.square {
+  height: 10vh;
+  width: 10vh;
+  background-color: cyan;
+  border: 1px solid blue;
+  margin: 10px;
+}
+
+.rectangle {
+  height: 48vh;
+  width: 10vh;
+  background-color: cyan;
+  border: 1px solid blue;
+  margin: 10px;
+}
+
+.rectangle1 {
+  height: 10vh;
+  width: 80%;
+  background-color: cyan;
+  border: 1px solid blue;
+  margin: 10px;
+}
+
+.rectangle2 {
+  height: 20vh;
+  width: 80%;
+  background-color: cyan;
+  border: 1px solid blue;
+  margin: 10px;
+}
+
+.rectangle3 {
+  height: 10vh;
+  width: 98%;
+  background-color: cyan;
+  border: 1px solid blue;
+  margin: 10px;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second, .third{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.square2-1, .square2-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.square3-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.square3-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.fourth {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.square2-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.fifth {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sixth {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.level-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.level-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
